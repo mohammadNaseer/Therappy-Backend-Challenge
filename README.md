@@ -19,14 +19,14 @@ Text Editor:
 
 (TestCase)
 
-######case 1###############################
+######case 1#####################################
 #input
 http://localhost:8080
 
 #output
 404 - NOT Found
 
-######case 2###############################
+######case 2#####################################
 #input
 http://localhost:8080/I/want/title?address=google.com
 
@@ -34,7 +34,7 @@ http://localhost:8080/I/want/title?address=google.com
 Following are the titles of given websites:
 . google.com - "Google"
 
-######case 3###############################
+######case 3#####################################
 #input
 http://localhost:8080/I/want/title?address=http://yahoo.com
 
@@ -42,7 +42,7 @@ http://localhost:8080/I/want/title?address=http://yahoo.com
 Following are the titles of given websites:
 . https://yahoo.com - Title Tag missing
 
-######case 4###############################
+######case 4#####################################
 #input
 http://localhost:8080/I/want/title?address=google.com&address=dawn.com/events/
 
@@ -51,7 +51,7 @@ Following are the titles of given websites:
 . google.com - "Google"
 . www.dawn.com/events/ - "Events - DAWN.COM - DAWN.COM"
 
-######case 5###############################
+######case 5#####################################
 #input
 http://localhost:8080/I/want/title?address=asdasdasd
 
